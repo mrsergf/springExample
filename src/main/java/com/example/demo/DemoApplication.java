@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        System.out.println("This is my Microservice log....." ;
+        System.out.println("This is my Microservice log.....");
         return "Hello My dear Family from Java 17 IPN!. It almost Done";
     }
 
